@@ -1,0 +1,22 @@
+$textbtnColorDanger: red;
+$textbtnBg: white;
+.text-button {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+
+  &.el-button--danger {
+    color: $textbtnColorDanger;
+    background-color: $textbtnBg;
+
+    &:hover {
+      color: $textbtnColorDanger;
+      background-color: $textbtnBg;
+    }
+
+    &:focus {
+      color: $textbtnColorDanger;
+      background-color: $textbtnBg;
+    }
+  }
+}
