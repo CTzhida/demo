@@ -53,7 +53,6 @@ export default {
 <style lang="scss" scoped>
 .box-card {
   border-radius: 20px;
-  h3{}
   h4{
     display: flex;
     justify-content: space-around;

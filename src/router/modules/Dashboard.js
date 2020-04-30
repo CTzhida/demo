@@ -14,6 +14,11 @@ const dashBoardRouter = {
     name: 'dashboard',
     component: () => import('@/views/dashboard.vue'),
     meta: { title: 'dashboard' }
+  }, {
+    path: 'index1',
+    name: 'dashboard1',
+    component: () => import('@/views/dashboard.vue'),
+    meta: { title: 'dashboard1' }
   }]
 }
 export default dashBoardRouter
